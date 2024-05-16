@@ -6,4 +6,4 @@ For testing gamepad buttons.
 <br>
 Analog Triggers are also supported.
 <br>
-![](GamePad-Tester/Image/2.gif)
+![Triggers](Image/2.gif)
