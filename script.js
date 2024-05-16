@@ -253,6 +253,21 @@ function process() {
   Object.values(gamepadsByIndex).forEach(processController);
   requestAnimationFrame(process);
 }
+//vibration
+function testVibration() {
+  const gamepads = navigator.getGamepads();
+  for (let gamepad of gamepads) {
+    if (gamepad) {
+      gamepad.vibrationActuator.playEffect("dual-rumble", {
+        duration: 4000,
+        strongMagnitude: vibrationIntensitySlider.value,
+        weakMagnitude: vibrationIntensitySlider.value
+      });
+    }
+  }
+}
+
+document.getElementById("vibrationButton").addEventListener("click", testVibration);
 
 // Start the timer when gamepad input is detected
 window.addEventListener('gamepadconnected', startTimer);
