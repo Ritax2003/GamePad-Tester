@@ -5,5 +5,6 @@ For testing gamepad buttons.
 
 <br>
 Analog Triggers are also supported.
-<br>
-![Triggers](Image/2.gif)
+<br>![2](https://github.com/Ritax2003/GamePad-Tester/assets/82272821/c8f24fe6-d258-45d5-94a7-3acc2858a0dd)
+
+
